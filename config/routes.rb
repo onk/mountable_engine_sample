@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   mount proc {|env| [200, {}, ["Hello, World!"]] }, at: "hello"
+  mount Foo, at: "foo"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
