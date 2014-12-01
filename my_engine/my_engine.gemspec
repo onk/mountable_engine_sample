@@ -7,11 +7,11 @@ require "my_engine/version"
 Gem::Specification.new do |s|
   s.name        = "my_engine"
   s.version     = MyEngine::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MyEngine."
-  s.description = "TODO: Description of MyEngine."
+  s.authors     = ["Takafumi ONAKA"]
+  s.email       = ["takafumi.onaka@gmail.com"]
+  s.homepage    = "https://github.com/onk/mountable_engine_sample/"
+  s.summary     = "Mountable Engine Sample"
+  s.description = "Mountable Engine Sample"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
