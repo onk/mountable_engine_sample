@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141201071044) do
+ActiveRecord::Schema.define(version: 20141201112218) do
+
+  create_table "my_engine_articles", force: true do |t|
+    t.integer  "user_id"
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "my_engine_articles", ["user_id"], name: "index_my_engine_articles_on_user_id"
 
   create_table "my_engine_users", force: true do |t|
     t.string   "name"
