@@ -1,3 +1,9 @@
+PATH
+  remote: my_engine
+  specs:
+    my_engine (0.0.1)
+      rails (~> 4.1.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -117,6 +123,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  my_engine!
   rails (= 4.1.8)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 gem "sinatra"
 
+gem "my_engine", path: "my_engine"
+
