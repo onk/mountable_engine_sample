@@ -1,2 +1,2 @@
-Admin::Engine.routes.draw do
+MyEngine::Admin::Engine.routes.draw do
 end
