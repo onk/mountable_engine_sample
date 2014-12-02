@@ -40,5 +40,5 @@ gem 'spring',        group: :development
 
 gem "sinatra"
 
-gem "my_engine", path: "my_engine"
+gem "my_engine", path: "my_engine", require: ["my_engine", "my_engine/admin"]
 
